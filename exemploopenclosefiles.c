@@ -4,7 +4,7 @@ int main() {
     FILE *arquivo; // Declaração de um ponteiro de arquivo
 
 
-    // Abrindo o arquivo para escrita (modo "w") no diretório específico
+    // Abrindo o arquivo para escrita (modo "w")
     arquivo = fopen("exemplo.txt", "w");
 
     // Verificando se o arquivo foi aberto com sucesso
